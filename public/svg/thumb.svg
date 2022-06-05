@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <rect id="rect-1" width="100" height="100" x="0" y="0"/>
+    <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="100" height="100" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#rect-1"/>
+    </mask>
+  </defs>
+  <g>
+    <use fill="rgb(200,200,200)" xlink:href="#rect-1"/>
+    <g mask="url(#mask-2)">
+      <text font-size="0" style="white-space:pre" transform="rotate(-36.999885 50.27357904 49.84511809)">
+        <tspan x="18.274" y="55.345" fill="rgb(255,255,255)" font-family="Open Sans" font-size="14" font-weight="700" style="white-space:pre;text-transform:none">220 x 220</tspan>
+      </text>
+    </g>
+  </g>
+</svg>
